@@ -1,0 +1,108 @@
+.partners-page{
+    margin: 0 auto;
+    width: 100%;
+}
+.partners-header{
+    text-align: center;
+    max-width: 600px;
+    margin:  0 auto;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.partners-header.visible{
+    opacity: 1;
+    animation: fadeIn 6s;
+}
+
+.partners-header h1{
+    font-size: 2.19rem;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+}
+
+
+.slider-container {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 15px 40px 10px 40px;
+    border-radius: 15px;
+    margin: 30px auto ;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.slider-container.visible{
+    opacity: 1;
+    animation: zoomIn 0.5s;
+}
+
+.slider-container h2{
+    text-align: center;
+}
+
+.slide {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.company-box {
+    background: #00639C;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 270px;
+}
+
+.company-logo {
+    max-width: 150px;
+    border-radius: 50%;
+    background: #fffbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;  
+    overflow: hidden;
+}
+
+.company-logo img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 5px;
+    border-radius: 50%;
+}
+.company-name {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.company-location {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+@media  (max-width:480px) {
+    .partners-header h1{
+        font-size: 1.9rem;
+        color: white;
+        -webkit-text-stroke: 0;
+    }
+    .partners-header {
+        max-width: 300px;
+    }
+
+    .slider-container{
+        padding: 15px 50px 10px 50px;
+    }
+
+    .partners-page{
+        padding: 0 30px;
+    }
+}

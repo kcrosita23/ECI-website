@@ -1,0 +1,680 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Everywhere Consulting Inc.</title>
+        <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="solution.css">
+        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="partners.css">
+        <link rel="stylesheet" href="contacts.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="hci.js" defer></script>
+        <!-- swal -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!-- products carousel -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+        <!-- email.js -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>   
+     
+    </head>
+     
+     
+    <body>
+        <nav>
+            <div class="nav-logo">
+                <img style="height:30px; width: 30px; margin-right: 10px" src="img/logo1.png" alt="">
+                <h3>EVERYWHERE CONSULTING INC.</h3>
+            </div>
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="index" >
+            <div class="hero" id="home">
+                <div class="left-content">
+                    <h1><span class="headline">Empowering Innovation</span><br>Delivering Solutions </h1>
+                    <p>Everywhere Consulting, Incorporated (ECI) is a recognized system integragtor and software solutions provider in the IT industry and offers solutions that works for customers. ECI was established as the exclusive distributor of Actian Zen (PSQL) and Magic Software.<br><br>
+                        Our experience as a software solutions provider enables us to share to our customers the knowledge and skills necessary for customers to pursue their goals in the development of information technology in their respective organizations. We succeed in such endeavor because we involve ourselves to learn the IT needs and understand exactly the requirements of customers.<br><br>
+                        ECI offers a wide range of products and services that enable our customers to freely select the approprate solution to the changing needs of their organizations.</p>
+                    <div class="btn"> <a href="#services" class="view">VIEW SERVICES</a></div>
+                </div>
+        
+                <div class="right-content">
+                    <div class="logo1">
+                        <img src="img/logo1.png" alt="" class="logo11">
+                        <div class="logo2">
+                            <img src="img/logo2.png" alt="" class="logo22">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="products-page" id="products">
+                <div class="products-header">
+                    <h1>OUR PRODUCTS</h1>
+                    <p>Build, Connect, and Manage with Ease</p>
+                </div>
+                <div class="products-grid">
+                    <div class="magic-xpa">
+                        <div class="img-div">
+                            <img class="product-img" src="img/low-code.jpg" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4>MAGIC  XPA - LOW CODE PLATFORM</h4>
+                            <h5>Single Business Logic, Deployed Everywhere.</h5>
+                            <p>Our Magic XPA solution enables rapid creation of cross-platform business applications for desktop, web and mobile, so you can take advantage of new business opportunities quickly and on-demand.</p>
+                        </div>
+                    </div>
+                    <div class="magic-xpi">
+                        <div class="img-div">
+                            <img class="product-img" src="img/Magic-xpi.png" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4>MAGIC  XPI - INTEGRATION PLATFROM</h4>
+                            <h5>Sync. Streamline. Scale.</h5>
+                            <p>Magic XPI offers a new standard in system integration. With a code-free, low maintenance approach, Magic xpi integrates all of your business systems on the cloud, on-premises or in hybrid deployments so your company can maximize its opportunities.</p>
+                        </div>
+                    </div>
+                    <div class="actian">
+                        <div class="img-div">
+                            <img class="product-img" src="img/actian.jpg" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h4>ACTIAN  ZEN (PSQL)</h4>
+                            <h5>Reliable, Fast, and Scalable DBMS</h5>
+                            <p>Actian Zen database family is the most reliable, small-footprint, low-maintenance, high-performance database management system (DBMS) in the world, purpose-built for Edge data management â€“ whether in the Cloud, remote and branch offices or in Mobile and IoT settings.The latest release is Zen v15 SP1 (15.10).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solutions-page" id="solutions">
+                <div class="solutions-header">
+                    <h1>SOLUTIONS</h1>
+                    <p>Powerful software solutions designed to streamline operations and drive business growth. We help companies work smarter and more efficiently.<p>
+                </div>
+                <div class="solutions-grid">
+                    <div class="vid-container">
+                        <div class="solution-vid">
+                            <iframe 
+                            src="https://www.youtube.com/embed/G4gylK0iTBA" 
+                            title="EBS2000" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                            </div>
+                                <div class="vid-name">
+                                <h5>EBS2000</h5>
+                            </div>
+                        </div>
+                        <div class="solution-info">
+                            <h3>Electric Billing System</h3>
+                            <p>Our Elecric Billiing System is the most widely used billing and collection system among the various electric cooperatives scattered all over the Philippines. Everywhere Consulting, Inc. designed, developed and deployed EBS2000 based on the original DOS based Electric Billing System previously deployed by Questronix Corporation, our mother company.</p>
+                    </div>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="solution-info">
+                        <h3>Consumer Management System</h3>
+                        <p>CMS2000 is an integrated solution that automates the manual process of consumer application and consumer records maintenance. The system provides facilities to accept consumer complaints and requests and generate the necessary "Orders" required to have the request and/or complaints acted upon. The system automatically updates the consumer records depending on the actions taken and feedbacks given by the crew. Reports can be generated for statistical analysis of crew performance and consumer maintenance history, among others.CMS2000 is an integrated solution that automates the manual process of consumer application and consumer records maintenance. The system provides facilities to accept consumer complaints and requests and generate the necessary "Orders" required to have the request and/or complaints acted upon. The system automatically updates the consumer records depending on the actions taken and feedbacks given by the crew. Reports can be generated for statistical analysis of crew performance and consumer maintenance history, among others.</p>
+                    </div>
+                    <div class="vid-container">
+                        <div class="solution-vid">
+                            <iframe 
+                            src="https://www.youtube.com/embed/wBCEAtdEmwE" 
+                            title="CMS2000" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                            <div class="vid-name">
+                                <h5>CMS2000</h5>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="vid-container">
+                        <div class="solution-vid">
+                            <iframe 
+                            src="https://www.youtube.com/embed/ZJkKPV8dEsg" 
+                            title="GAS2000" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                            <div class="vid-name">
+                                <h5>GAS2000</h5>
+                            </div>
+                    </div>
+                    <div class="solution-info">
+                        <h3>General Accounting System</h3>
+                        <p>GAS2000 helps businesses record and manage financial transactions efficiently. It includes features for purchasing, warehouse management, and file maintenance to keep track of supplies and records. The system also allows users to create lookup codes for easier transaction processing. GAS2000 is integrated with CAS2000 and WIS2000 for a seamless accounting experience.</p>
+                    </div>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="solution-info">
+                        <h3>Human Resource Management Information System</h3>
+                        <p>The HRMIS2000 is an all-in-one human resource management and payroll system designed to streamline HR processes. It helps businesses manage payroll, employee records, attendance tracking, and performance appraisals, ensuring efficient and organized HR operations. With its user-friendly interface, HRMIS2000 simplifies HR tasks and improves workforce management.</p>
+                    </div>
+                    <div class="vid-container">
+                        <div class="solution-vid">
+                            <iframe 
+                            src="https://www.youtube.com/embed/KMbvA2LL4ks" 
+                            title="HRMIS2000" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                            <div class="vid-name">
+                                <h5>HRMIS2000</h5>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="solutions-grid">
+                    <div class="vid-container">
+                        <div class="solution-vid">
+                            <iframe 
+                            src="https://www.youtube.com/embed/oTOXbJBkzJY" 
+                            title="LSM2000" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                            <div class="vid-name">
+                                <h5>LSM2000</h5>
+                            </div>
+                    </div>
+                    <div class="solution-info">
+                        <h3>Loans Management System</h3>
+                        <p>The LMS2000 is a loan management system used by Philippine Credit Cooperatives to handle member loans and payments efficiently. It includes key features such as a security menu for managing user access, an audit trail to track system activities, loan history display, and member ledger inquiry for easy financial monitoring. With its streamlined interface, LMS2000 enhances accuracy and simplifies loan management processes.</p>
+                    </div>
+                </div>
+
+                <div class="others-solution">
+                    <div class="others-solution-header">
+                        <h3>Other Solutions</h3>
+                    </div>
+                    <div class="other-solution-grid">
+                        <div class="info-only-solutions">
+                            <h4>Electric Meter Reader <br><span class="colored">(EMR200)</span></h4>
+                            <p>The EMR2000 is a state of the art mobile application used to capture and store meter readings from electric or water meters. It also collects non-meter reading information, including meter conditions, hazardous conditions, tamper information, survey data and high/low reading checks.</p>
+                        </div>
+                        <div class="info-only-solutions">
+                            <h4>Warehousing & Inventory Sytem <span class="colored">(WIS2000)</span></h4>
+                            <p>The WIS2000 is designed to aid electric utilities in their material management. It generates all important reports in any inventory such as material balance, summary of releases, received materials (BIN Card), total cost of project, etc.</p>
+                        </div>
+                        <div class="info-only-solutions">
+                            <h4>Computerized Accounting System <span class="colored">(CAS2000)</span></h4>
+                            <p>The CAS2000 is an ACAM/BSUP ready computerized accounting system designed to effectively handle and manage the complexities of the financial processes of Philippine electric utilites thereby improving its operation and performance.</p>
+                        </div>
+                        <div class="info-only-solutions">
+                            <h4>Customer Information Management System<span class="colored">(CIMS200)</span> </h4>
+                            <p>The CIMS2000 is a powerful Customer Information Management System that integrates the Electric Billing System (EBS2000) with the Customer Management System (CMS2000). This integration enhances billing accuracy, customer data management, and service efficiency, providing a seamless experience for both businesses and customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-page" id="services">
+                <div class="services-grid">
+                    <div class="left-grid">
+                        <h4> &#8212 Why ECI</h4>
+                        <h2> We Empower Your Business with Expert Support, Training & Custom Software Solutions!</h2>
+                        <p> <span class="bold">TECHNICAL SUPPORT</span> Programming/Installation Assistance at ECI Office, On-site or Remote. <span class="bold">TRAINING</span> Magic XPA Developer Training 5 days Training at ECI Office, On-site or Remote.<span class="bold"> CUSTOM SOFTWARE DEVELOPMENT</span> ECI has the experience, expertise, and resources to help you design, create, deploy, and maintain the best software applications for your specific business needs, on time and within budget</p>
+                        <div class="left-btn"><a class="services-btn" href="#contacts">Contact Us</a></div>
+                    </div>
+                    <div class="right-grid">
+                        <div class="services-img">
+                            <img src="img/tech-support.jpg" alt="" class="left-image">
+                            <img src="img/corporate-training.jpg" alt="" class="right-top">
+                            <img src="img/software.jpg" alt="" class="right-bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="partners-page" id="partners">
+
+                <div class="partners-header">
+                    <h1>OUR TRUSTED PARTNERS</h1>
+                    <p>We collaborate with industry leaders to deliver exceptional solutions. Together, we innovate and drive success for our clients nationwide</p>
+                </div>
+
+                <div class="slider-container">
+                    <h2>CORPORATE</h2>  
+                    <div class="your-slider">
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/rohm.png"></div>
+                                <div class="company-name">ROHM Electronics</div>
+                                <div class="company-location">Laguna</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/baliwag.png"></div>
+                                <div class="company-name">Baliwag Transit</div>
+                                <div class="company-location">Baliwag</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/imarflex.png"></div>
+                                <div class="company-name">Imarflex Battery Mfg. Corp.</div>
+                                <div class="company-location">Pasig City</div>
+                            </div>
+                        </div>
+                       
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/phimco.png"></div>
+                                <div class="company-name">Phimco Industries</div>
+                                <div class="company-location">Mandaluyong</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/innobank.png"></div>
+                                <div class="company-name">Innovative Bank</div>
+                                <div class="company-location">Philippines</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/inno.png"></div>
+                                <div class="company-name">Innovative Investors and Financing Co. Inc.</div>
+                                <div class="company-location">Quezon City</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/misyubibi.png"></div>
+                                <div class="company-name">Mitsubishi Motors Phils.</div>
+                                <div class="company-location">Cainta</div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/denso.png"></div>
+                                <div class="company-name">Denso Ten Corp. Phils.</div>
+                                <div class="company-location">Laguna</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/gillamac.png"></div>
+                                <div class="company-name">Gillamac's Marketing Inc.</div>
+                                <div class="company-location">Cebu City</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/baguio.png"></div>
+                                <div class="company-name">Baguio-Benguet Community Credit Cooperative</div>
+                                <div class="company-location">Cordillera</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/mizuho.png"></div>
+                                <div class="company-name">Mizuho Corporate Bank</div>
+                                <div class="company-location">Makati City</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/prince.png"></div>
+                                <div class="company-name">Prince Warehouse Club Inc.</div>
+                                <div class="company-location">Cebu City</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <h2>UTILITY</h2>  
+                    <div class="your-slider">
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/la union.png"></div>
+                                <div class="company-name">La Union Electric Cooperatives (LUELCO)</div>
+                                <div class="company-location">La Union (Region I)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/panelco.png"></div>
+                                <div class="company-name">Pangasinan III Electric Cooperative (PANELCO III)</div>
+                                <div class="company-location">Pangasinan (Region I)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/cagelco.png"></div>
+                                <div class="company-name">Cagayan II Electric Cooperative (CAGELCOII)</div>
+                                <div class="company-location">Cagayan (Region II)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/tarelco.png"></div>
+                                <div class="company-name">Tarlac II Electric Cooperative (TARELCO II)</div>
+                                <div class="company-location">Tarlac (Region III)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/neeco.png"></div>
+                                <div class="company-name">Nueva Ecija II Electric Cooperative (NEECO II)</div>
+                                <div class="company-location">Nueva Ecija (Region III)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/pelco.png"></div>
+                                <div class="company-name">Pampanga II Electric Cooperative (PELCO II)</div>
+                                <div class="company-location">Pampanga (Region III)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/ormeco.png"></div>
+                                <div class="company-name">Oriental Mindoro Electric Cooperative (ORMECO)</div>
+                                <div class="company-location">Oriental Mindoro (Region IV)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/canereco.png"></div>
+                                <div class="company-name">Camarines Norte Electric Cooperative (CANORECO)</div>
+                                <div class="company-location">Camarines Norte (Region V)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/noreco.png"></div>
+                                <div class="company-name">Negros Oriental II Electric Cooperative (NORECO II)</div>
+                                <div class="company-location">Negros Oriental (Region VII)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/samelco.png"></div>
+                                <div class="company-name">Samar I Electric Cooperative (SAMELCO I)</div>
+                                <div class="company-location">Samar (Region VIII)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/esmelco.png" ></div>
+                                <div class="company-name">Eastern Samar Electric Cooperative (ESAMELCO)</div>
+                                <div class="company-location">Eastern Samar (Region VIII)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/zambeco.png"></div>
+                                <div class="company-name">Zamboanga Sur I Electric Cooperative (ZAMSURECO I)</div>
+                                <div class="company-location">Zamboanga Sur (Region IX)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/fibeco.png"></div>
+                                <div class="company-name">First Bukidnon Electric Cooperative (FIBECO)</div>
+                                <div class="company-location">Bukidnon (Region X)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/surneco.png"></div>
+                                <div class="company-name">Surigao Norte Electric Cooperative (SURNECO)</div>
+                                <div class="company-location">Surigao Norte (Region X)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/laneco.png" ></div>
+                                <div class="company-name">Lanao Norte Electric Cooperative (LANECO)</div>
+                                <div class="company-location">Lanao Norte (Region X)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/daneco.png"></div>
+                                <div class="company-name">Davao Norte Electric Cooperative (DANECO)</div>
+                                <div class="company-location">Davao Norte (Region XI)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/catelco.png"></div>
+                                <div class="company-name">Cotabato Electric Cooperative (COTELCO)</div>
+                                <div class="company-location">Cotabato (Region XI)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/satelco.png"></div>
+                                <div class="company-name">Sultan Kudarat Electric Cooperative (SUKELCO)</div>
+                                <div class="company-location">Sultan Kudarat (Region XI)</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/cepalcooo.png"></div>
+                                <div class="company-name">Cagayan de Oro Electric Power & Light Co., Inc (CEPALCO))</div>
+                                <div class="company-location">Private Electric Utility</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/oedc.png"></div>
+                                <div class="company-name">Olongapo Electricity Distribution Company Inc. (OEDC)</div>
+                                <div class="company-location">Private Electric Utility</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/silang.png" ></div>
+                                <div class="company-name">Silang Water District</div>
+                                <div class="company-location">Water Utility</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="slider-container">
+                    <h2>Public Sector</h2>  
+                    <div class="your-slider">
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/pnp.png"></div>
+                                <div class="company-name">Philippine National Police (Camp Crame)</div>
+                                <div class="company-location">Quezon City</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="company-box">
+                                <div class="company-logo"><img src="img/pdea.png"></div>
+                                <div class="company-name">Philippine Drug Enforcement Agency</div>
+                                <div class="company-location">Quezon City</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 
+            </div>
+
+            
+            
+            
+            <div class="contacts-page" id="contacts">
+                <div class="contacts-flex">
+                    
+                    <div class="inquire">
+                        <h2>Inquire Now!</h2>
+                        <p>For your inquiries leave your message below.</p>
+                        <form id="contact-form">
+
+                            <div class="form-input-full">
+                                <label for="Contact">Contact</label>
+                                <select name="contact" id="contact" required>
+                                    <option value="" disabled selected hidden>--Select a department to inquire--</option>
+                                    <option value="Sales">Sales Management Group</option>
+                                    <option value="Tech">Technical Support Group</option>
+                                </select>
+                            </div>
+
+                            <div class="form-input">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required pattern="^[A-Za-z\s]{2,30}$" title="Only letters allowed. Min 2, max 30 characters.">
+                            </div>
+
+                            <div class="form-input">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="fname" placeholder="Last Name" required pattern="^[A-Za-z\s]{2,30}$" title="Only letters allowed. Min 2, max 30 characters.">
+                            </div>
+
+                            <div class="form-input">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Company Name" maxlength="50" required>
+                            </div>
+
+                            <div class="form-input">
+                                <label for="position">Position</label>
+                                <input type="text" id="position" name="position" placeholder="Position" maxlength="50" required>
+                            </div>
+
+                            <div class="form-input">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="e.g. (043) 123-4567 or None" required>
+                            </div>
+
+                            <div class="form-input">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="tel" id="mobile" name="mobile" placeholder="e.g. 0917 123 4567 or None" required>
+                            </div>
+
+                            <div class="form-input-full">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                            </div>
+
+                            <div class="form-input-full">
+                                <label for="messagebox">Message</label>
+                                <textarea name="messagebox" id="messagebox" placeholder="Input your message here." rows="9"></textarea>
+                            </div>
+
+                            <div class="inquire-btn">
+                                <button class="click-inquire" type="submit" onclick="sendEmail(event)">Send</button>
+                            </div>
+                          
+                        </form>
+                    </div>
+
+                    <div class="maps-container">
+                        <h2>Visit Us</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.86347893056!2d121.01072707324408!3d14.549798578322152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c91377b0a94d%3A0xac79f2c232903875!2sCityland%20Pasong%20Tamo%20Tower!5e0!3m2!1sen!2sph!4v1742881070164!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-us-header">
+                    <h1>Contact Our Team</h1>
+                </div>
+
+                <div class="sales-container">
+                    <div class="sales-header"><h2>Sales Management Group</h2></div>
+                    <div class="sales-flex">
+                        <div class="sales-card">
+                            <div class="sales-img"><img src="img/git.jpg" alt=""></div>
+                            <h3>JOJO D. RULLAN</h3>
+                            <p>Channel Accountant Manager</p>
+                            <p>EMAIL: jrullan@everywhereconsuting.com</p>
+                        </div>
+                        <div class="sales-card">
+                            <div class="sales-img"><img src="img/git.jpg" alt=""></div>
+                            <h3>PHILIP S. TAGUBA</h3>
+                            <p>Channel Accountant Manager</p>
+                            <p>EMAIL: ptaguba@everywhereconsulting.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accounting-tech-container">
+                    <div class="accounting-tech-flex">
+                            <div class="accounting-tech-card">
+                                <h2>Accounting Finance and Admin</h2>
+                                <div class="accounting-tech-img"><img src="img/git.jpg" alt=""></div>
+                                <h3>SHIRLEY F. SANTOS</h3>
+                                <p>Admin/ Accounting Officer</p>
+                                <p>EMAIL: ssantos@everywhereconsulting.com</p>
+                            </div>
+                    
+                            <div class="accounting-tech-card">
+                                <h2>Technical Support Group</h2>
+                                <div class="accounting-tech-img"><img src="img/git.jpg" alt=""></div>
+                                <h3>ALEX P. ALONZO</h3>
+                                <p>Supervisor - Tech Support</p>
+                                <p>EMAIL: aalonzo@everywhereconsulting.com</p>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>   
+        </div>
+
+        
+        <footer>
+            <div class="description">
+                <p>Developed by Student of <br><b>Batangas State University JPLPC - Malvar Campus </b></p>
+            </div>
+
+            <div class="footer-logo">
+                <img src="img/bsu.png" >
+                <img src="img/logo1.png">
+            </div>
+
+            <div class="alright-reserved">
+                <p>All rights reserved 2025 <br> <b>Everywhere Consulting Inc.</b></p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    </body>
+    </html>

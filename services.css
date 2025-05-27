@@ -1,0 +1,148 @@
+.services-page{
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-grid{
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.left-grid h2, .left-grid p{
+    margin-top: 20px;
+}
+
+.left-grid h2, 
+.left-grid h4,
+.left-grid p,
+.left-btn
+{
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.left-btn.visible{
+    opacity: 1;
+    animation: slideInLeft 2s;
+}
+
+.left-grid p.visible{
+    opacity: 1;
+    animation: fadeIn 6s;
+}
+
+
+.left-grid h2.visible, .left-grid h4.visible{
+    opacity: 1;
+    animation: backInDown 2s;
+}
+
+.bold{
+    font-weight: bolder;
+    color: #00639C;
+}
+
+.services-btn{
+    padding: 15px 30px;
+    background-color: #00639C;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 130px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 3px 10px rgba(227, 228, 237, 0.20);
+    
+}
+
+.services-btn:hover{
+    background-color: transparent;
+    transition: 0.4s;
+    border: 1px solid #00639C;
+    color: #00639C;
+}
+
+.left-btn{
+    margin-top: 40px;
+}
+
+.right-grid{
+    padding-top:60px;
+}
+
+.services-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.services-img img{
+    width: 100%;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    object-fit: cover;
+}
+
+.left-image {
+    grid-row: span 2; 
+    width: 100%;
+    height: 100%;
+    margin-top: -40px;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.right-top,
+.right-bottom {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.left-image.visible{
+    opacity: 1;
+    animation: slideInUp 2s;
+}
+.right-top.visible,
+.right-bottom.visible{
+    opacity: 1;
+    animation: slideInRight 2s ;
+}
+
+@media (max-width:1024px) {
+    .right-grid {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid{
+        grid-template-columns: repeat( 1, 1fr);
+    }
+
+    .left-grid{
+        padding-right: 0;
+    }
+    .right-grid{
+        padding-top: 90px;
+    }
+}
+
+@media (max-width:480px) {
+    .services-page{
+        padding: 30px 10px ;
+    }
+}
