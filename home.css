@@ -25,6 +25,7 @@
     line-height: 20px;
     margin-top: 25px;
     animation: fadeIn 7s;
+    text-align: justify;
 }
 
 .btn{
