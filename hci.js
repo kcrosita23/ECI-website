@@ -169,13 +169,13 @@ function sendEmail(event) {
   let serviceID, templateID, publicKey;
 
   if (contact === "Sales") {
-    serviceID = "service_72kg3da";
-    templateID = "template_gpi4bfx";
-    publicKey = "-GbeOEM5jmYaXfAb0";
+    serviceID = "service_my3kdza";
+    templateID = "template_tesr9m4";
+    publicKey = "ZHIMJdoveoAKc06gf";
   } else if (contact === "Tech") {
-    serviceID = "service_yikxle7";
-    templateID = "template_244kc9d";
-    publicKey = "Z-Vt9IHoqs-TkPhJH";
+    serviceID = "service_my3kdza";
+    templateID = "template_tesr9m4";
+    publicKey = "ZHIMJdoveoAKc06gf";
   } else {
     Swal.fire({
       title: "Error!",
