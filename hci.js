@@ -168,7 +168,7 @@ function sendEmail(event) {
 
   let serviceID, templateID, publicKey;
 
-  /* if (contact === "Sales") {
+  if (contact === "Sales") {
     serviceID = "service_my3kdza";
     templateID = "template_tesr9m4";
     publicKey = "ZHIMJdoveoAKc06gf";
@@ -184,7 +184,7 @@ function sendEmail(event) {
       confirmButtonText: "OK",
     });
     return;
-  } */
+  }
 
   emailjs.init({ publicKey });
 
